@@ -1,0 +1,23 @@
+
+CREATE TABLE houses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    property VARCHAR(255),
+    location VARCHAR(255),
+    price INT,
+    type VARCHAR(255)
+);
+
+
+
+INSERT INTO houses (id, property, location, price, dive)
+VALUES
+  (1, 'Cottage by the lake', 'Lake Tahoe, California', 750000, 'Cozy'),
+  (2, 'Modern apartment', 'New York, New York', 1200000, 'Urban'),
+  (3, 'Beachfront condo', 'Malibu, California', 950000, 'Scenic'),
+  (4, 'Mountain cabin', 'Aspen, Colorado', 850000, 'Rustic'),
+  (5, 'Penthouse suite', 'Chicago, Illinois', 1300000, 'Luxury'),
+  (6, 'Historic mansion', 'Savannah, Georgia', 1500000, 'Elegant'),
+  (7, 'Suburban home', 'Austin, Texas', 600000, 'Family-friendly'),
+  (8, 'Country farmhouse', 'Nashville, Tennessee', 700000, 'Charming'),
+  (9, 'City loft', 'San Francisco, California', 1100000, 'Modern'),
+  (10, 'Eco-friendly house', 'Portland, Oregon', 800000, 'Sustainable');

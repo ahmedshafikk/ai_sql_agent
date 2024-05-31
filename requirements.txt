@@ -1,0 +1,6 @@
+streamlit==1.14.0
+pyodbc==4.0.32
+python-dotenv==1.0.0
+langchain-groq==0.1.0
+re
+
